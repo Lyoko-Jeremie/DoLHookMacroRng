@@ -1,0 +1,35 @@
+{
+  "name": "HookMacroRng",
+  "version": "0.0.1",
+  "styleFileList": [
+  ],
+  "scriptFileList_earlyload": [
+    "dist/earlyload.js"
+  ],
+  "scriptFileList_inject_early": [
+    "dist/webpack_inject_early.js"
+  ],
+  "scriptFileList_preload": [
+    "dist/preload.js"
+  ],
+  "scriptFileList": [
+    "js/after_game.js"
+  ],
+  "tweeFileList": [
+  ],
+  "imgFileList": [
+  ],
+  "imgFileReplaceList": [
+  ],
+  "additionFile": [
+    "README.md"
+  ],
+  "addonPlugin": [
+  ],
+  "dependenceInfo": [
+    {
+      "modName": "ModLoader",
+      "version": "^2.18.2"
+    }
+  ]
+}
