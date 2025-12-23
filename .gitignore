@@ -17,4 +17,5 @@ dist*
 *.zip
 
 .idea/copilot.*
+*.modpack
 
