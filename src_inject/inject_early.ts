@@ -30,7 +30,7 @@ export class HookMacroRng {
             this.logger.error(`[HookMacroRng] initHook() cannot find macro [rng]`);
             return;
         }
-        const h = icon.OriginHandlerPassageQBalance;
+        const h = icon.handler;
         if (!h && !isFunction(h)) {
             console.error('[HookMacroRng] initHook() cannot find macro [rng] handle', [icon, h]);
             this.logger.error(`[HookMacroRng] initHook() cannot find macro [rng] handle`);
